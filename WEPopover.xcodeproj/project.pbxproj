@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51CB75E315BE68A70052E201 /* popoverArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03415BA128400C2CEE9 /* popoverArrowLeft.png */; };
+		51CB75E415BE68A70052E201 /* popoverArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03515BA128400C2CEE9 /* popoverArrowLeft@2x.png */; };
+		51CB75E515BE68A70052E201 /* popoverArrowLeftSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03615BA128400C2CEE9 /* popoverArrowLeftSimple.png */; };
+		51CB75E615BE68A70052E201 /* popoverArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03715BA128400C2CEE9 /* popoverArrowRight.png */; };
+		51CB75E715BE68A70052E201 /* popoverArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03815BA128400C2CEE9 /* popoverArrowRight@2x.png */; };
+		51CB75E815BE68A70052E201 /* popoverArrowRightSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03915BA128400C2CEE9 /* popoverArrowRightSimple.png */; };
+		51CB75E915BE68A70052E201 /* popoverArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03A15BA128400C2CEE9 /* popoverArrowUp.png */; };
+		51CB75EA15BE68A70052E201 /* popoverArrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03B15BA128400C2CEE9 /* popoverArrowUp@2x.png */; };
+		51CB75EB15BE68A70052E201 /* popoverArrowUpSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03C15BA128400C2CEE9 /* popoverArrowUpSimple.png */; };
+		51CB75EC15BE68A70052E201 /* popoverBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03D15BA128400C2CEE9 /* popoverBg.png */; };
+		51CB75ED15BE68A70052E201 /* popoverBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03E15BA128400C2CEE9 /* popoverBg@2x.png */; };
+		51CB75EE15BE68A70052E201 /* popoverBgSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03F15BA128400C2CEE9 /* popoverBgSimple.png */; };
+		51CB75EF15BE68A70052E201 /* popoverArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE04015BA128400C2CEE9 /* popoverArrowDown.png */; };
+		51CB75F015BE68A70052E201 /* popoverArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE04115BA128400C2CEE9 /* popoverArrowDown@2x.png */; };
+		51CB75F115BE68A70052E201 /* popoverArrowDownSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE04215BA128400C2CEE9 /* popoverArrowDownSimple.png */; };
 		51CEE00C15BA125900C2CEE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CEE00B15BA125900C2CEE9 /* Foundation.framework */; };
 		51CEE01A15BA125A00C2CEE9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CEE01915BA125A00C2CEE9 /* SenTestingKit.framework */; };
 		51CEE01C15BA125A00C2CEE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CEE01B15BA125A00C2CEE9 /* UIKit.framework */; };
@@ -23,21 +38,6 @@
 		51CEE05215BA129600C2CEE9 /* WEPopoverParentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 51CEE04915BA129600C2CEE9 /* WEPopoverParentView.h */; };
 		51CEE05315BA129600C2CEE9 /* WETouchableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 51CEE04A15BA129600C2CEE9 /* WETouchableView.h */; };
 		51CEE05415BA129600C2CEE9 /* WETouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CEE04B15BA129600C2CEE9 /* WETouchableView.m */; };
-		51CEE05715BA12B300C2CEE9 /* popoverArrowLeft.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03415BA128400C2CEE9 /* popoverArrowLeft.png */; };
-		51CEE05815BA12B300C2CEE9 /* popoverArrowLeft@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03515BA128400C2CEE9 /* popoverArrowLeft@2x.png */; };
-		51CEE05915BA12B300C2CEE9 /* popoverArrowLeftSimple.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03615BA128400C2CEE9 /* popoverArrowLeftSimple.png */; };
-		51CEE05A15BA12B300C2CEE9 /* popoverArrowRight.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03715BA128400C2CEE9 /* popoverArrowRight.png */; };
-		51CEE05B15BA12B300C2CEE9 /* popoverArrowRight@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03815BA128400C2CEE9 /* popoverArrowRight@2x.png */; };
-		51CEE05C15BA12B300C2CEE9 /* popoverArrowRightSimple.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03915BA128400C2CEE9 /* popoverArrowRightSimple.png */; };
-		51CEE05D15BA12B300C2CEE9 /* popoverArrowUp.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03A15BA128400C2CEE9 /* popoverArrowUp.png */; };
-		51CEE05E15BA12B300C2CEE9 /* popoverArrowUp@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03B15BA128400C2CEE9 /* popoverArrowUp@2x.png */; };
-		51CEE05F15BA12B300C2CEE9 /* popoverArrowUpSimple.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03C15BA128400C2CEE9 /* popoverArrowUpSimple.png */; };
-		51CEE06015BA12B300C2CEE9 /* popoverBg.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03D15BA128400C2CEE9 /* popoverBg.png */; };
-		51CEE06115BA12B300C2CEE9 /* popoverBg@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03E15BA128400C2CEE9 /* popoverBg@2x.png */; };
-		51CEE06215BA12B300C2CEE9 /* popoverBgSimple.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE03F15BA128400C2CEE9 /* popoverBgSimple.png */; };
-		51CEE06315BA12B300C2CEE9 /* popoverArrowDown.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE04015BA128400C2CEE9 /* popoverArrowDown.png */; };
-		51CEE06415BA12B300C2CEE9 /* popoverArrowDown@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE04115BA128400C2CEE9 /* popoverArrowDown@2x.png */; };
-		51CEE06515BA12B300C2CEE9 /* popoverArrowDownSimple.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51CEE04215BA128400C2CEE9 /* popoverArrowDownSimple.png */; };
 		51CEE07215BA13B100C2CEE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CEE01B15BA125A00C2CEE9 /* UIKit.framework */; };
 		51CEE07315BA13B100C2CEE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CEE00B15BA125900C2CEE9 /* Foundation.framework */; };
 		51CEE07515BA13B100C2CEE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CEE07415BA13B100C2CEE9 /* CoreGraphics.framework */; };
@@ -58,6 +58,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		51CB75F215BE69400052E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51CEDFFF15BA125900C2CEE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51CB75D415BE68830052E201;
+			remoteInfo = WEPopoverResources;
+		};
 		51CEE01E15BA125A00C2CEE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 51CEDFFF15BA125900C2CEE9 /* Project object */;
@@ -81,34 +88,9 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		51CEE05615BA12A000C2CEE9 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = ../WEPopoverResources;
-			dstSubfolderSpec = 16;
-			files = (
-				51CEE05715BA12B300C2CEE9 /* popoverArrowLeft.png in CopyFiles */,
-				51CEE05815BA12B300C2CEE9 /* popoverArrowLeft@2x.png in CopyFiles */,
-				51CEE05915BA12B300C2CEE9 /* popoverArrowLeftSimple.png in CopyFiles */,
-				51CEE05A15BA12B300C2CEE9 /* popoverArrowRight.png in CopyFiles */,
-				51CEE05B15BA12B300C2CEE9 /* popoverArrowRight@2x.png in CopyFiles */,
-				51CEE05C15BA12B300C2CEE9 /* popoverArrowRightSimple.png in CopyFiles */,
-				51CEE05D15BA12B300C2CEE9 /* popoverArrowUp.png in CopyFiles */,
-				51CEE05E15BA12B300C2CEE9 /* popoverArrowUp@2x.png in CopyFiles */,
-				51CEE05F15BA12B300C2CEE9 /* popoverArrowUpSimple.png in CopyFiles */,
-				51CEE06015BA12B300C2CEE9 /* popoverBg.png in CopyFiles */,
-				51CEE06115BA12B300C2CEE9 /* popoverBg@2x.png in CopyFiles */,
-				51CEE06215BA12B300C2CEE9 /* popoverBgSimple.png in CopyFiles */,
-				51CEE06315BA12B300C2CEE9 /* popoverArrowDown.png in CopyFiles */,
-				51CEE06415BA12B300C2CEE9 /* popoverArrowDown@2x.png in CopyFiles */,
-				51CEE06515BA12B300C2CEE9 /* popoverArrowDownSimple.png in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		51CB75D515BE68830052E201 /* WEPopoverResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEPopoverResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		51CB75D615BE68830052E201 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		51CEE00815BA125900C2CEE9 /* libWEPopover.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWEPopover.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CEE00B15BA125900C2CEE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51CEE00F15BA125900C2CEE9 /* WEPopover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WEPopover-Prefix.pch"; sourceTree = "<group>"; };
@@ -229,6 +211,7 @@
 				51CEE01815BA125A00C2CEE9 /* WEPopoverTests.octest */,
 				51CEE07015BA13B100C2CEE9 /* WEPopoverDemo.app */,
 				51CEE08715BA13B200C2CEE9 /* WEPopoverDemoTests.octest */,
+				51CB75D515BE68830052E201 /* WEPopoverResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,6 +223,7 @@
 				51CEE01915BA125A00C2CEE9 /* SenTestingKit.framework */,
 				51CEE01B15BA125A00C2CEE9 /* UIKit.framework */,
 				51CEE07415BA13B100C2CEE9 /* CoreGraphics.framework */,
+				51CB75D615BE68830052E201 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -409,6 +393,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		51CB75D415BE68830052E201 /* WEPopoverResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51CB75E115BE68830052E201 /* Build configuration list for PBXNativeTarget "WEPopoverResources" */;
+			buildPhases = (
+				51CB75D315BE68830052E201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WEPopoverResources;
+			productName = WEPopoverResources;
+			productReference = 51CB75D515BE68830052E201 /* WEPopoverResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		51CEE00715BA125900C2CEE9 /* WEPopover */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51CEE02C15BA125A00C2CEE9 /* Build configuration list for PBXNativeTarget "WEPopover" */;
@@ -416,11 +415,11 @@
 				51CEE00415BA125900C2CEE9 /* Sources */,
 				51CEE00515BA125900C2CEE9 /* Frameworks */,
 				51CEE00615BA125900C2CEE9 /* Headers */,
-				51CEE05615BA12A000C2CEE9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				51CB75F315BE69400052E201 /* PBXTargetDependency */,
 			);
 			name = WEPopover;
 			productName = WEPopover;
@@ -506,6 +505,7 @@
 			targets = (
 				51CEE00715BA125900C2CEE9 /* WEPopover */,
 				51CEE01715BA125A00C2CEE9 /* WEPopoverTests */,
+				51CB75D415BE68830052E201 /* WEPopoverResources */,
 				51CEE06F15BA13B100C2CEE9 /* WEPopoverDemo */,
 				51CEE08615BA13B200C2CEE9 /* WEPopoverDemoTests */,
 			);
@@ -513,6 +513,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		51CB75D315BE68830052E201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CB75E315BE68A70052E201 /* popoverArrowLeft.png in Resources */,
+				51CB75E415BE68A70052E201 /* popoverArrowLeft@2x.png in Resources */,
+				51CB75E515BE68A70052E201 /* popoverArrowLeftSimple.png in Resources */,
+				51CB75E615BE68A70052E201 /* popoverArrowRight.png in Resources */,
+				51CB75E715BE68A70052E201 /* popoverArrowRight@2x.png in Resources */,
+				51CB75E815BE68A70052E201 /* popoverArrowRightSimple.png in Resources */,
+				51CB75E915BE68A70052E201 /* popoverArrowUp.png in Resources */,
+				51CB75EA15BE68A70052E201 /* popoverArrowUp@2x.png in Resources */,
+				51CB75EB15BE68A70052E201 /* popoverArrowUpSimple.png in Resources */,
+				51CB75EC15BE68A70052E201 /* popoverBg.png in Resources */,
+				51CB75ED15BE68A70052E201 /* popoverBg@2x.png in Resources */,
+				51CB75EE15BE68A70052E201 /* popoverBgSimple.png in Resources */,
+				51CB75EF15BE68A70052E201 /* popoverArrowDown.png in Resources */,
+				51CB75F015BE68A70052E201 /* popoverArrowDown@2x.png in Resources */,
+				51CB75F115BE68A70052E201 /* popoverArrowDownSimple.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		51CEE01515BA125A00C2CEE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -574,7 +596,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Build/WEPopoverResources",
+				"$(SRCROOT)/Build/WEPopoverResources.bundle",
 			);
 			outputPaths = (
 			);
@@ -627,6 +649,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		51CB75F315BE69400052E201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51CB75D415BE68830052E201 /* WEPopoverResources */;
+			targetProxy = 51CB75F215BE69400052E201 /* PBXContainerItemProxy */;
+		};
 		51CEE01F15BA125A00C2CEE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 51CEE00715BA125900C2CEE9 /* WEPopover */;
@@ -672,6 +699,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		51CB75DF15BE68830052E201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WEPopoverResources/WEPopoverResources-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		51CB75E015BE68830052E201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WEPopoverResources/WEPopoverResources-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		51CEE02A15BA125A00C2CEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -840,6 +905,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		51CB75E115BE68830052E201 /* Build configuration list for PBXNativeTarget "WEPopoverResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51CB75DF15BE68830052E201 /* Debug */,
+				51CB75E015BE68830052E201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		51CEE00215BA125900C2CEE9 /* Build configuration list for PBXProject "WEPopover" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -856,6 +929,7 @@
 				51CEE02E15BA125A00C2CEE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51CEE02F15BA125A00C2CEE9 /* Build configuration list for PBXNativeTarget "WEPopoverTests" */ = {
 			isa = XCConfigurationList;
@@ -864,6 +938,7 @@
 				51CEE03115BA125A00C2CEE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51CEE09615BA13B200C2CEE9 /* Build configuration list for PBXNativeTarget "WEPopoverDemo" */ = {
 			isa = XCConfigurationList;
@@ -872,6 +947,7 @@
 				51CEE09815BA13B200C2CEE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51CEE09915BA13B200C2CEE9 /* Build configuration list for PBXNativeTarget "WEPopoverDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -880,6 +956,7 @@
 				51CEE09B15BA13B200C2CEE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
