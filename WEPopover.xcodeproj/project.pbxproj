@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5198B60A15C0B9DC00F4F905 /* WEPopoverResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 51CB75D515BE68830052E201 /* WEPopoverResources.bundle */; };
 		51CB75E315BE68A70052E201 /* popoverArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03415BA128400C2CEE9 /* popoverArrowLeft.png */; };
 		51CB75E415BE68A70052E201 /* popoverArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03515BA128400C2CEE9 /* popoverArrowLeft@2x.png */; };
 		51CB75E515BE68A70052E201 /* popoverArrowLeftSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CEE03615BA128400C2CEE9 /* popoverArrowLeftSimple.png */; };
@@ -58,7 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		51CB75F215BE69400052E201 /* PBXContainerItemProxy */ = {
+		5198B60715C0B90900F4F905 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 51CEDFFF15BA125900C2CEE9 /* Project object */;
 			proxyType = 1;
@@ -419,7 +420,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				51CB75F315BE69400052E201 /* PBXTargetDependency */,
+				5198B60815C0B90900F4F905 /* PBXTargetDependency */,
 			);
 			name = WEPopover;
 			productName = WEPopover;
@@ -449,7 +450,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51CEE09615BA13B200C2CEE9 /* Build configuration list for PBXNativeTarget "WEPopoverDemo" */;
 			buildPhases = (
-				51CEE0B015BA15E600C2CEE9 /* ShellScript */,
 				51CEE06C15BA13B100C2CEE9 /* Sources */,
 				51CEE06D15BA13B100C2CEE9 /* Frameworks */,
 				51CEE06E15BA13B100C2CEE9 /* Resources */,
@@ -547,6 +547,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5198B60A15C0B9DC00F4F905 /* WEPopoverResources.bundle in Resources */,
 				51CEE07B15BA13B200C2CEE9 /* InfoPlist.strings in Resources */,
 				51CEE0A015BA148B00C2CEE9 /* MainWindow.xib in Resources */,
 				51CEE0A115BA148B00C2CEE9 /* WEPopoverViewController.xib in Resources */,
@@ -589,20 +590,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		51CEE0B015BA15E600C2CEE9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Build/WEPopoverResources.bundle",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "for ((i=0; i < SCRIPT_INPUT_FILE_COUNT ; i++)) ; do\ninputFile=`eval echo '$SCRIPT_INPUT_FILE_'$i`\nif [ -e $inputFile ] ; then\ncp -a \"$inputFile/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/\"\nfi\ndone";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -649,10 +636,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		51CB75F315BE69400052E201 /* PBXTargetDependency */ = {
+		5198B60815C0B90900F4F905 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 51CB75D415BE68830052E201 /* WEPopoverResources */;
-			targetProxy = 51CB75F215BE69400052E201 /* PBXContainerItemProxy */;
+			targetProxy = 5198B60715C0B90900F4F905 /* PBXContainerItemProxy */;
 		};
 		51CEE01F15BA125A00C2CEE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -704,7 +691,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WEPopoverResources/WEPopoverResources-Prefix.pch";
@@ -714,6 +701,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -723,7 +711,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -733,6 +721,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
@@ -912,6 +901,7 @@
 				51CB75E015BE68830052E201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51CEE00215BA125900C2CEE9 /* Build configuration list for PBXProject "WEPopover" */ = {
 			isa = XCConfigurationList;
