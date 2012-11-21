@@ -53,6 +53,14 @@ permittedArrowDirections:(UIPopoverArrowDirection)permittedArrowDirections
 		self.backgroundColor = [UIColor clearColor];
 		UIImage *theImage = [UIImage imageNamed:[NSString stringWithFormat:@"WEPopoverResources.bundle/%@", properties.bgImageName]];
 		bgImage = [[theImage stretchableImageWithLeftCapWidth:properties.leftBgCapSize topCapHeight:properties.topBgCapSize] retain];
+        
+        bgImageView = [[UIImageView alloc] initWithImage:bgImage];
+        bgImageView.frame = bgRect;
+        [self addSubview:bgImageView];
+        
+        arrowImageView = [[UIImageView alloc] initWithImage:arrowImage];
+        arrowImageView.frame = arrowRect;
+        [self addSubview:arrowImageView];
 		
 		self.clipsToBounds = YES;
 		self.userInteractionEnabled = YES;
@@ -64,13 +72,10 @@ permittedArrowDirections:(UIPopoverArrowDirection)permittedArrowDirections
 	[properties release];
 	[contentView release];
 	[bgImage release];
+    [bgImageView release];
 	[arrowImage release];
+    [arrowImageView release];
 	[super dealloc];
-}
-
-- (void)drawRect:(CGRect)rect {
-	[bgImage drawInRect:bgRect blendMode:kCGBlendModeNormal alpha:1.0];
-	[arrowImage drawInRect:arrowRect blendMode:kCGBlendModeNormal alpha:1.0]; 
 }
 
 - (void)updatePositionWithAnchorRect:(CGRect)anchorRect 
@@ -109,7 +114,21 @@ permittedArrowDirections:(UIPopoverArrowDirection)permittedArrowDirections
 	}
 }
 
+- (void)hideBackgroundAnimated:(BOOL)animated {
+    [UIView animateWithDuration:(animated ? 0.5f : 0.0f)
+                     animations:^{
+                         bgImageView.alpha = 0.0f;
+                         arrowImageView.alpha = 0.0f;
+                     }];
+}
 
+- (void)showBackgroundAnimated:(BOOL)animated {
+    [UIView animateWithDuration:(animated ? 0.5f : 0.0f)
+                     animations:^{
+                         bgImageView.alpha = 1.0f;
+                         arrowImageView.alpha = 1.0f;
+                     }];    
+}
 
 @end
 

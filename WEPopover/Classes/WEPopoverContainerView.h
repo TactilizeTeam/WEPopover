@@ -53,7 +53,9 @@
  */
 @interface WEPopoverContainerView : UIView {
 	UIImage *bgImage;
+    UIImageView *bgImageView;
 	UIImage *arrowImage;
+    UIImageView *arrowImageView;
 	
 	WEPopoverContainerViewProperties *properties;
 	
@@ -94,5 +96,15 @@ permittedArrowDirections:(UIPopoverArrowDirection)permittedArrowDirections
 - (void)updatePositionWithAnchorRect:(CGRect)anchorRect 
 						 displayArea:(CGRect)displayArea
 			permittedArrowDirections:(UIPopoverArrowDirection)permittedArrowDirections;	
+
+/**
+ * @brief Hides the background and arrow of the popover
+ */
+- (void)hideBackgroundAnimated:(BOOL)animated;
+
+/**
+ * @brief Shows the background and arrow of the popover
+ */
+- (void)showBackgroundAnimated:(BOOL)animated;
 
 @end

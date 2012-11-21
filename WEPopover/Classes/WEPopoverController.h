@@ -64,4 +64,8 @@
 						   inView:(UIView *)view
 		 permittedArrowDirections:(UIPopoverArrowDirection)arrowDirections;
 
+- (void)hidePopoverBackgroundAnimated:(BOOL)animated;
+
+- (void)showPopoverBackgroundAnimated:(BOOL)animated;
+
 @end

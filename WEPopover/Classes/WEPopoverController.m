@@ -213,6 +213,16 @@
 	}
 }
 
+- (void)hidePopoverBackgroundAnimated:(BOOL)animated {
+    WEPopoverContainerView *containerView = (WEPopoverContainerView *)self.view;
+    [containerView hideBackgroundAnimated:animated];
+}
+
+- (void)showPopoverBackgroundAnimated:(BOOL)animated {
+    WEPopoverContainerView *containerView = (WEPopoverContainerView *)self.view;
+    [containerView showBackgroundAnimated:animated];
+}
+
 @end
 
 
